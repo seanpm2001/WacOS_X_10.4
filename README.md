@@ -1,406 +1,187 @@
 
 ***
 
-# <projectName>
+<details open><summary><b lang="en">Click/tap here to expand/collapse the logo for this subproject</b></summary>
 
-![{Project icon} This image failed to load. It may be due to the file not being reached, or a general error. Reload the page to fix a possible general error.](Image.svg)
+![/W_Cats.png](/W_Cats.png)
 
-# By:
+</details>
 
-<!-- ![{Developer name} This image failed to load. It may be due to the file not being reached, or a general error. Reload the page to fix a possible general error.](Image2.svg) !-->
+| ![SadMac_Tiny64px_HighCompression.png](SadMac_Tiny64px_HighCompression.png) Note: Wac OS X 10.4 is the last version where there is native support for Classic WacOS programs in the classic Wac environment |
+|-----------------------------------------------------------------------------------------------|
 
-## [Seanpm2001](https://github.com/seanpm2001/), [<developerName>](https://github.com/<developerName>/) Et; Al.
+| [Previous (10.3)](https://github.com/seanpm2001/WacOS_X_10.3/) | [Current (10.4)](https://github.com/seanpm2001/WacOS_X_10.4) | [Next (10.5)](https://github.com/seanpm2001/WacOS_X_10.5) |
+|---|---|---|
+| ![/W_Cats_HighCompression.png](/W_Cats_HighCompression.png) | ![/W_Cats_HighCompression.png](/W_Cats_HighCompression.png) | ![/W_Cats_HighCompression.png](/W_Cats_HighCompression.png) |
+| First boot | First boot | First boot |
+| ![/W_Modern1_HighCompression.png](/W_Modern1_HighCompression.png) |  ![/W_Modern1_HighCompression.png](/W_Modern1_HighCompression.png) | ![/W_Modern1_HighCompression.png](/W_Modern1_HighCompression.png) |
+| Default boot | Default boot | Default boot |
+| Wac OS X 10.3 (Panther) [Local](/WacOS_X/10.3/) | Wac OS X 10.4 (Tiger) [Local](/WacOS_X/10.4/) | Wac OS X 10.5 (Leopard) [Local](/WacOS_X/10.5/) |
 
+# WacOS X 10.4
 
-### Top
+Wac OS X 10.3 is an open source recreation of Mac OS X 10.4. It is part of the WacOS operating system project. 
 
-# `README.md`
+## Language
+
+The system is currently written in C, but will also support several other languages, including x86 Assembly, Objective-C, and AppleScript
+
+## Features
+
+Features to replicate
+
+Source: [Mac OS X 10.4 - Wikipedia (en)](https://en.wikipedia.org/w/index.php?title=Mac_OS_X_Tiger&oldid=1086544038)
+
+Mac OS X 10.4 Tiger was initially available in a PowerPC edition, with an Intel edition released beginning at Mac OS X 10.4.4 Tiger. There is no universal version of the client operating system, although Mac OS X 10.4 Tiger Server was made available on a universal DVD from version Mac OS X 10.4.7 Tiger. While Apple shipped the PowerPC edition bundled with PowerPC-based Macs and also sold it as a separate retail box, the only way to obtain the Intel version was to buy an Intel-based Mac bundled with it. However, it was possible to buy the 'restore' DVDs containing the Intel version through unofficial channels such as eBay, and officially through Apple if one could provide proof of purchase of the appropriate Intel Mac. These grey-colored ‘restore’ DVDs supplied with new Macs, are designed to only restore on the model of Mac that they are intended for. However, they can be modified to work on any Intel Mac. The retail PowerPC-only DVD can be used on any PowerPC-based Mac supported by Mac OS X 10.4 Tiger.
+
+The system requirements of the PowerPC edition are:
+
+- [ ] Macintosh computer with a PowerPC G3, G4 or G5 processor
+- [ ] Built-in FireWire
+- [ ] DVD drive for installation
+- [ ] 256MB of RAM
+- [ ] 3GB of available hard disk space (4GB if the user install the developer tools)
+
+Mac OS X 10.4 Tiger removed support for older New World ROM Macs such as the original iMacs and iBooks that were supported in Mac OS X 10.3 Panther; however it is possible to install Mac OS X 10.4 Tiger on these Macs using third-party software (such as XPostFacto) that overrides the checks made at the beginning of the installation process. Likewise, machines such as beige Power Mac G3s and ‘Wall Street’ PowerBook G3s that were dropped by Mac OS X 10.3 Panther can also be made to run both Mac OS X 10.3 Panther and Mac OS X 10.4 Tiger in this way. Also, Mac OS X 10.4 Tiger can be installed on unsupported New World ROM Macs by installing it on a supported Mac, then swapping hard drives. Old World ROM Macs require the use of XPostFacto to install Mac OS X 10.4 Tiger.
+
+Mac OS X 10.4 Tiger was the last version of Mac OS X to support the PowerPC G3 processor.
+
+### End-user features
+
+Apple advertises that Mac OS X 10.4 Tiger has over 150 new and improved features, including:
+
+- [ ] Spotlight — Spotlight is a full-text and metadata search engine which can search everything on one's Mac, including Microsoft Word documents, iCal calendars and Address Book contact cards. The feature is also used to build the concept of ‘smart folders’ into the Finder. Spotlight will index files as they are saved, so they can be quickly and easily found through a search-as-you-type box in the menu bar. As a side-effect, it adds hidden folders and indexing files to removable media like USB flash drives.
+- [ ] iChat AV — The new iChat AV 3.0 in Mac OS X 10.4 Tiger supports up to four participants in a video conference and ten participants in an audio conference. It also now supports communication using the XMPP protocol. A XMPP server called iChat Server is included on Mac OS X 10.4 Tiger Server.
+- [ ] Safari RSS — The new Safari 2.0 web browser in Mac OS X 10.4 Tiger features a built-in reader for RSS and Atom web syndication that can be accessed easily from an RSS button in the address bar of the web browser window. An updated version of Safari, included as part of the free Mac OS X (10.4.3 Tiger update, can also pass the Acid2 web standards test.
+- [ ] Mail 2 — The new version of Mail.app email client included in Mac OS X 10.4 Tiger featured an updated interface, "Smart Mailboxes", which utilizes the Spotlight search system, parental controls, as well as several other features.
+- [ ] Automator — A scripting tool to link applications together to form complex automated workflows (written in AppleScript, Cocoa, or both). Automator comes with a complete library of actions for several applications that can be used together to make a Workflow.
+- [ ] VoiceOver — screen reader interface similar to Jaws for Windows and other Windows screen readers that offers the blind and visually impaired user keyboard control and spoken English descriptions of what is happening on screen. VoiceOver enables users with visual impairment to use applications via keyboard commands. VoiceOver is capable of reading aloud the contents of files including web pages, mail messages and word processing files. Complete keyboard navigation lets the user control the computer with the keyboard rather than the mouse, a menu is displayed in a window showing all the available keyboard commands that can be used.
+- [ ] A complete built-in Dictionary/Thesaurus based on the New Oxford American Dictionary, Second Edition, accessible through an application, Dictionary, a Dashboard widget, and as a system-wide command (see below).
+- [ ] .Mac syncing — Though this is not a new feature, .Mac syncing in Tiger is much improved over Panther. Syncing tasks in Tiger are now accomplished through the .Mac system preferences pane rather than the iSync application.
+- [ ] QuickTime 7 — A new version of Apple's multimedia software has support for the new H.264/AVC codec, which offers better quality and scalability than other video codecs. This new codec is used by iChat AV for clearer video conferencing. New classes within Cocoa provide full access to QuickTime for Cocoa application developers. The new QuickTime 7 player application bundled with Tiger now includes more advanced audio and video controls as well as a more detailed Information dialog, and the new player has been rebuilt using Apple's Cocoa API to take advantage of the new technologies more easily.
+- [ ] New Unix features — New versions of cp, mv, and rsync that support files with resource forks. Command-line support for features like the above-mentioned Spotlight are also included.
+- [ ] Xcode 2.0 — Xcode 2.0, Apple's Cocoa development tool now includes visual modelling, an integrated Apple Reference Library and graphical remote debugging.
+
+### New applications in Tiger
+
+- [ ] Dashboard — The Dashboard is a new mini-applications layer based on HTML, CSS, and JavaScript, which returns the desk accessories concept to Mac OS. These accessories are known as widgets. It comes with several widgets such as Weather, World Clock, Unit Converter, Dictionary/Thesaurus, and others (full list). More are available to download for free online. Its similarity to the Konfabulator application caused some criticism.
+- [ ] Automator — Automator uses workflows to process repetitive tasks automatically
+- [ ] Grapher — Grapher is a new application capable of creating 2D and 3D graphs similar to those of Graphing Calculator.
+- [ ] Dictionary — A dictionary and thesaurus program that uses the New Oxford American Dictionary. It has a fast GUI for displaying the Dictionary, and allows the user to search the dictionary with Spotlight, to print definitions, and to copy and paste text into documents. Dictionary also provides a Dictionary service in the Application menu, and Cocoa and WebKit provides a global keyboard shortcut (ctrl-⌘-D by default) for all applications that display text with them. Its use was furthered in the next version of OS X by providing definitions from Wikipedia. The Dictionary application is a more feature-filled version of the Dictionary widget.
+- [ ] Quartz Composer — Quartz Composer is a development tool for processing and rendering graphical data.
+- [ ] AU Lab — AU Lab is a developer application for testing and mixing Audio Units.
+
+### Improvements
+
+- [ ] An upgraded kernel with optimized kernel resource locking and access control lists, and with support for 64-bit userland address spaces on machines with 64-bit processors.
+- [ ] An updated libSystem with both 32-bit and 64-bit versions; combined with the aforementioned kernel change, this allows individual applications to address more than 4 GB of memory when run on 64-bit processors, although an application using Apple libraries or frameworks other than libSystem would need to have two processes, one running the 64-bit code and one running the code that requires other libraries and frameworks.
+- [ ] A new startup daemon called launchd that allows for faster booting.
+- [ ] The printing dialog in Tiger now features a drop down menu for creating PDFs, sending PDFs to Mail, and other PDF related actions. However, the user interface was criticized for creating a hybrid widget that looks like a plain button but acts like a pop-up menu. This is one of only three places in the entire Mac OS X interface where such an element appears.
+- [ ] Dock menus now have menu items to open an application at login, or to remove the icon from the dock.
+- [ ] The Window menu in the Finder now features a "Cycle Through Windows" menu item.
+- [ ] The Get Info window for items in the Finder now includes a "More Info" section that includes Spotlight information tags such as Image Height & Width, when the file was last opened, and where the file originated.
+- [ ] Early development of resolution independence. Apple notes that this will be a user-level feature in a future version of Mac OS X. Among the changes, the maximum size of icons was increased to 256x256. However, the Finder does not yet support this size.
+
+### Technologies
+	
+A new graphics processing API, Core Image, leveraging the power of the available accelerated graphics cards.
+
+> Core Image allows programmers to easily leverage programmable GPUs for fast image processing for special effects and image correction tools. Some of the included Image Units are Blur, Color Blending, Generator Filters, Distortion Filters, Geometry Filters, Halftone features and much more.
+
+A new data persistence API, Core Data, that makes it easier for developers to handle structured data in their applications.
+
+> The Mac OS X Core Data API helps developers create data structures for their applications. Core Data provides undo, redo and save functions for developers without them having to write any code.
+
+A new video graphics API, Core Video, which leverages Core Image to provide real-time video processing.
+
+> Apple's Motion real-time video effects program takes advantage of Core Video in Tiger. Core Video lets developers easily integrate real-time video effects and processing into their applications.
+
+Core Audio integrates a range of audio functionality directly into the operating system.
+
+### Interface differences
+
+In Tiger, the menu bar displayed at the top of the screen now features a colored Spotlight button in the upper right corner; the menu itself has a smoother 'glassy' texture to replace the faint pinstripes in Panther.
+
+Also of note, Tiger introduces a new window theme, often described as 'Unified'. A variation on the standard, non-brushed metal theme used since the introduction of Mac OS X, this theme integrates the title bar and the toolbar of a window. A prominent example of an application that utilizes this theme is Mail.
+Accessibility
+
+Tiger was the first version of Mac OS X to include the "Zoom" screen magnifier functionality, which allowed the user to zoom on to the area around the mouse by holding CONTROL and scrolling the mouse wheel up or down (to zoom in and out respectively).
+
+At Apple's 2005 Worldwide Developers Conference, CEO Steve Jobs announced that the company would begin selling Mac computers with Intel x86 processors in 2006. To allow developers to begin producing software for these Intel-based Macs, Apple made available a prototype Intel-based Mac ("Developer Transition Kit") that included a version of Mac OS X v10.4.1 designed to run on x86 processors.
+
+This build included Apple's Rosetta compatibility layer — a translation process that allows x86-based versions of the OS to run software designed for PowerPC with a moderate performance penalty. This is contrasted with the contemporary Mac OS 9 Classic mode, which used comparably larger amounts of system resources.
+
+Soon after the Developer Transition Kits began shipping, copies of Tiger x86 were leaked onto file sharing networks. Although Apple had implemented a Trusted Computing DRM scheme in the transition hardware and OS in an attempt to stop people installing Tiger x86 on non-Apple PCs, the OSx86 project soon managed to remove this restriction. As Apple released each update with newer safeguards to prevent its use on non-Apple hardware, unofficially modified versions were released that circumvented Apple's safeguards. However, with the release of 10.4.5, 10.4.6, and 10.4.7 the unofficially modified versions continued to use the kernel from 10.4.4 because later kernels have hardware locks and depend heavily on EFI. By late 2006, the 10.4.8 kernel had been cracked.
+
+At MacWorld San Francisco 2006, Jobs announced the immediate availability of Mac OS X v10.4.4, the first publicly available release of Tiger compiled for both PowerPC- and Intel x86-based machines.
+
+### Boot screen
+
+The `Happy Wac` is disabled by default on boot to match the release (starting with Wac OS X 10.2) and on boot, the letter `W` will show. By default, on the first install, it will go with the brand logo (The W logo with a big cat texture) then it will be the `Modern1` logo (The W logo with a metal tecxturr) This can be changed in [`WACOS_10-4_BOOT.cfg`](/10.4/WACOS_10-4_BOOT.cfg)
+
+### File system
+
+OpenHFS+ 2.0 is still the default file system.
+
+### Codecs
+
+No new codecs are supported in this release.
+
+### Applications found on Mac OS X 10.4
+
+- [ ] Address Book
+- [ ] AppleScript
+- [ ] Calculator
+- [ ] Chess
+- [ ] Clock
+- [ ] CPU Monitor
+- [ ] DVD Player
+- [ ] Image Capture
+- [ ] iMovie
+- [ ] Internet Connect
+- [ ] iTunes
+- [ ] Mail
+- [ ] Preview
+- [ ] Activity Monitor
+- [ ] QuickTime Player
+- [ ] Sherlock
+- [ ] Stickies
+- [ ] System Preferences
+- [ ] StuffIt Expander
+- [ ] TextEdit
+- [ ] Terminal
+- [ ] Font Book
+- [ ] FileVault
+- [ ] iChat AV
+- [ ] X11
+- [ ] Safari
+- [ ] Dashboard
+- [ ] Automator
+- [ ] Grapher
+- [ ] Dictionary
+- [ ] Quartz Composer
+- [ ] AU Lab
+
+## Home repositories
+
+[Guesthouse repository](https://github.com/seanpm2001/WacOS_X_10.4/)
+
+This is a guesthouse repository, and not a home repository, as development mainly stays on the main WacOS side. This is just the guesthouse that the project retreats to at times. If you are already in this repository, the link is likely recursive, and will reload the page.
+
+[Home repository](https://github.com/seanpm2001/WacOS/tree/WacOS-dev/WacOS_X/10.4/)
+
+This is the home repository. If you are already in this repository, the link is likely recursive, and will reload the page.
 
 ***
 
-## Read this article in a different language
+## File info
 
-**Sorted by:** `A-Z`
+**File type:** `Markdown document (*.md *.mkd *.mdown *.markdown)`
 
-[Sorting options unavailable](https://github.com/<developerName>/<repoName>)
+**File version:** `1 (2022, Saturday, June 4th at 6:40 pm PST)`
 
-( [af Afrikaans](/.github/README_AF.md) Afrikaans | [sq Shqiptare](/.github/README_SQ.md) Albanian | [am አማርኛ](/.github/README_AM.md) Amharic | [ar عربى](/.github/README_AR.md) Arabic | [hy հայերեն](/.github/README_HY.md) Armenian | [az Azərbaycan dili](/.github/README_AZ.md) Azerbaijani | [eu Euskara](/.github/README_EU.md) Basque | [be Беларуская](/.github/README_BE.md) Belarusian | [bn বাংলা](/.github/README_BN.md) Bengali | [bs Bosanski](/.github/README_BS.md) Bosnian | [bg български](/.github/README_BG.md) Bulgarian | [ca Català](/.github/README_CA.md) Catalan | [ceb Sugbuanon](/.github/README_CEB.md) Cebuano | [ny Chichewa](/.github/README_NY.md) Chichewa | [zh-CN 简体中文](/.github/README_ZH-CN.md) Chinese (Simplified) | [zh-t 中國傳統的）](/.github/README_ZH-T.md) Chinese (Traditional) | [co Corsu](/.github/README_CO.md) Corsican | [hr Hrvatski](/.github/README_HR.md) Croatian | [cs čeština](/.github/README_CS.md) Czech | [da dansk](README_DA.md) Danish | [nl Nederlands](/.github/README_NL.md) Dutch | [**en-us English**](/.github/README.md) English |  [EO Esperanto](/.github/README_EO.md) Esperanto | [et Eestlane](/.github/README_ET.md) Estonian | [tl Pilipino](/.github/README_TL.md) Filipino | [fi Suomalainen](/.github/README_FI.md) Finnish |  [fr français](/.github/README_FR.md) French | [fy Frysk](/.github/README_FY.md) Frisian | [gl Galego](/.github/README_GL.md) Galician | [ka ქართველი](/.github/README_KA) Georgian | [de Deutsch](/.github/README_DE.md) German | [el Ελληνικά](/.github/README_EL.md) Greek | [gu ગુજરાતી](/.github/README_GU.md) Gujarati | [ht Kreyòl ayisyen](/.github/README_HT.md) Haitian Creole | [ha Hausa](/.github/README_HA.md) Hausa | [haw Ōlelo Hawaiʻi](/.github/README_HAW.md) Hawaiian | [he עִברִית](/.github/README_HE.md) Hebrew | [hi हिन्दी](/.github/README_HI.md) Hindi | [hmn Hmong](/.github/README_HMN.md) Hmong | [hu Magyar](/.github/README_HU.md) Hungarian | [is Íslenska](/.github/README_IS.md) Icelandic | [ig Igbo](/.github/README_IG.md) Igbo | [id bahasa Indonesia](/.github/README_ID.md) Icelandic | [ga Gaeilge](/.github/README_GA.md) Irish | [it Italiana/Italiano](/.github/README_IT.md) | [ja 日本語](/.github/README_JA.md) Japanese | [jw Wong jawa](/.github/README_JW.md) Javanese | [kn ಕನ್ನಡ](/.github/README_KN.md) Kannada | [kk Қазақ](/.github/README_KK.md) Kazakh | [km ខ្មែរ](/.github/README_KM.md) Khmer | [rw Kinyarwanda](/.github/README_RW.md) Kinyarwanda | [ko-south 韓國語](/.github/README_KO_SOUTH.md) Korean (South) | [ko-north 문화어](README_KO_NORTH.md) Korean (North) (NOT YET TRANSLATED) | [ku Kurdî](/.github/README_KU.md) Kurdish (Kurmanji) | [ky Кыргызча](/.github/README_KY.md) Kyrgyz | [lo ລາວ](/.github/README_LO.md) Lao | [la Latine](/.github/README_LA.md) Latin | [lt Lietuvis](/.github/README_LT.md) Lithuanian | [lb Lëtzebuergesch](/.github/README_LB.md) Luxembourgish | [mk Македонски](/.github/README_MK.md) Macedonian | [mg Malagasy](/.github/README_MG.md) Malagasy | [ms Bahasa Melayu](/.github/README_MS.md) Malay | [ml മലയാളം](/.github/README_ML.md) Malayalam | [mt Malti](/.github/README_MT.md) Maltese | [mi Maori](/.github/README_MI.md) Maori | [mr मराठी](/.github/README_MR.md) Marathi | [mn Монгол](/.github/README_MN.md) Mongolian | [my မြန်မာ](/.github/README_MY.md) Myanmar (Burmese) | [ne नेपाली](/.github/README_NE.md) Nepali | [no norsk](/.github/README_NO.md) Norwegian | [or ଓଡିଆ (ଓଡିଆ)](/.github/README_OR.md) Odia (Oriya) | [ps پښتو](/.github/README_PS.md) Pashto | [fa فارسی](/.github/README_FA.md) |Persian  [pl polski](/.github/README_PL.md) Polish | [pt português](/.github/README_PT.md) Portuguese | [pa ਪੰਜਾਬੀ](/.github/README_PA.md) Punjabi | No languages available that start with the letter Q | [ro Română](/.github/README_RO.md) Romanian | [ru русский](/.github/README_RU.md) Russian | [sm Faasamoa](/.github/README_SM.md) Samoan | [gd Gàidhlig na h-Alba](/.github/README_GD.md) Scots Gaelic | [sr Српски](/.github/README_SR.md) Serbian | [st Sesotho](/.github/README_ST.md) Sesotho | [sn Shona](/.github/README_SN.md) Shona | [sd سنڌي](/.github/README_SD.md) Sindhi | [si සිංහල](/.github/README_SI.md) Sinhala | [sk Slovák](/.github/README_SK.md) Slovak | [sl Slovenščina](/.github/README_SL.md) Slovenian | [so Soomaali](/.github/README_SO.md) Somali | [[es en español](/.github/README_ES.md) Spanish | [su Sundanis](/.github/README_SU.md) Sundanese | [sw Kiswahili](/.github/README_SW.md) Swahili | [sv Svenska](/.github/README_SV.md) Swedish | [tg Тоҷикӣ](/.github/README_TG.md) Tajik | [ta தமிழ்](/.github/README_TA.md) Tamil | [tt Татар](/.github/README_TT.md) Tatar | [te తెలుగు](/.github/README_TE.md) Telugu | [th ไทย](/.github/README_TH.md) Thai | [tr Türk](/.github/README_TR.md) Turkish | [tk Türkmenler](/.github/README_TK.md) Turkmen | [uk Український](/.github/README_UK.md) Ukrainian | [ur اردو](/.github/README_UR.md) Urdu | [ug ئۇيغۇر](/.github/README_UG.md) Uyghur | [uz O'zbek](/.github/README_UZ.md) Uzbek | [vi Tiếng Việt](/.github/README_VI.md) Vietnamese | [cy Cymraeg](/.github/README_CY.md) Welsh | [xh isiXhosa](/.github/README_XH.md) Xhosa | [yi יידיש](/.github/README_YI.md) Yiddish | [yo Yoruba](/.github/README_YO.md) Yoruba | [zu Zulu](/.github/README_ZU.md) Zulu ) Available in 110 languages (108 when not counting English and North Korean, as North Korean has not been translated yet [Read about it here](/OldVersions/Korean(North)/README.md))
+**Line count (including blank lines and compiler line):** `188`
 
-Translations in languages other than English are machine translated and are not yet accurate. No errors have been fixed yet as of March 21st 2021. Please report translation errors [here](https://github.com/<developerName>/<repoName>/issues/). Make sure to backup your correction with sources and guide me, as I don't know languages other than English well (I plan on getting a translator eventually) please cite [wiktionary](https://en.wiktionary.org) and other sources in your report. Failing to do so will result in a rejection of the correction being published.
-
-Note: due to limitations with GitHub's interpretation of markdown (and pretty much every other web-based interpretation of markdown) clicking these links will redirect you to a separate file on a separate page that isn't the intended page. You will be redirected to the [.github folder](/.github/) of this project, where the README translations are hosted.
-
-Translations are currently done with Bing translate and DeepL. Support for Google Translate translations is coming to a close due to privacy concerns.
-
-***
-
-# Index
-
-[00.0 - Top](#Top)
-
-> [00.1 - Title](#<projectName>)
-
-> [00.2 - Read this article in a different language](#Read-this-article-in-a-different-language)
-
-> [00.3 - Index](#Index)
-
-[01.0 - Description](#RepositoryName)
-
-[02.0 - About](#About)
-
-[03.0 - Wiki](#Wiki)
-
-[04.0 - History](#History)
-
-> [04.1 - Pre-history](#Pre-history)
-
-> [04.2 - Alpha History](#Alpha-history)
-
-> [04.3 - Beta History](#Beta-history)
-
-> [04.4 - Modern History](#Modern-history)
-
-[05.0 - Copying](#Copying)
-
-[06.0 - Credits](#Credits)
-
-[07.0 - Installation](#Installation)
-
-[08.0 - Version history](#Version-history)
-
-[09.0 - Version history](#Version-history)
-
-[10.0 - Software status](#Software-status)
-
-[11.0 - Sponsor info](#Sponsor-info)
-
-[12.0 - Contributers](#Contributers)
-
-[13.0 - Issues](#Issues)
-
-> [13.1 - Current issues](#Current-issues)
-
-> [13.2 - Past issues](#Past-issues)
-
-> [13.3 - Past pull requests](#Past-pull-requests)
-
-> [13.4 - Active pull requests](#Active-pull-requests)
-
-[14.0 - Resources](#Resources)
-
-[15.0 - Contributing](#Contributing)
-
-[16.0 - About README](#About-README)
-
-[17.0 - README Version history](#README-version-history)
-
-[18.0 - Footer](#You-have-reached-the-end-of-the-README-file)
-
-> [18.9 - End of file](#EOF)
-
-***
-
-# <repoName>
-<repo_description>
-
-***
-
-## About
-
-See above. <extendedRepoDescription>
-
-***
-
-## Wiki
-
-[Click/tap here to view this projects Wiki](https://github.com/<developerName>/<repoName>/wiki)
-
-If the project has been forked, the Wiki was likely removed. Luckily, I include an embedded version. You can view it [here](/External/ProjectWiki/).
-
-***
-
-## History
-
-Write about this projects history here.
-
-### Pre-history
-
-No pre-history to show for this project.
-
-### Alpha history
-
-No Alpha history to show for this project.
-
-### Beta history
-
-No Beta history to show for this project.
-
-### Modern history
-
-No Modern history to show for this project.
-
-***
-
-## Copying
-
-View the copying license for this project [here](/COPYING) (if you haven't built the project yet with the makefile, here is the original link: [COPYINGL](/COPYINGL)
-
-Please note that you also have to follow the rules of the GNU General Public License v3 (GPL3) which you can view [here](/LICENSE.txt)
-
-***
-
-## Credits
-
-View the credits file for this project and see the people who got together to make this project by [clicking/tapping here](/CREDITS)
-
-***
-
-## Installation
-
-View the installation instructions file for this project [here](/INSTALL)
-
-Requirements: Read the instructions for more info, and get the latest up-to-date instructions [here](https://gist.github.com/seanpm2001/745564a46186888e829fdeb9cda584de)
-
-***
-
-## Sponsor info
-
-![SponsorButton.png](/SponsorButton.png)
-
-You can sponsor this project if you like, but please specify what you want to donate to. [See the funds you can donate to here](https://github.com/seanpm2001/Sponsor-info/tree/main/For-sponsors/)
-
-You can view other sponsor info [here](https://github.com/seanpm2001/Sponsor-info/)
-
-Try it out! The sponsor button is right up next to the watch/unwatch button.
-
-***
-
-## Version history
-
-**Version history currently unavailable**
-
-**No other versions listed**
-
-***
-
-## Software status
-
-All of my works are free some restrictions. DRM (**D**igital **R**estrictions **M**anagement) is not present in any of my works.
-
-![DRM-free_label.en.svg](/DRM-free_label.en.svg)
-
-This sticker is supported by the Free Software Foundation. I never intend to include DRM in my works.
-
-I am using the abbreviation "Digital Restrictions Management" instead of the more known "Digital Rights Management" as the common way of addressing it is false, there are no rights with DRM. The spelling "Digital Restrictions Management" is more accurate, and is supported by [Richard M. Stallman (RMS)](https://en.wikipedia.org/wiki/Richard_Stallman) and the [Free Software Foundation (FSF)](https://en.wikipedia.org/wiki/Free_Software_Foundation)
-
-This section is used to raise awareness for the problems with DRM, and also to protest it. DRM is defective by design and is a major threat to all computer users and software freedom.
-
-Image credit: [defectivebydesign.org/drm-free/...](https://www.defectivebydesign.org/drm-free/how-to-use-label/)
-
-***
-
-## Contributers
-
-Currently, I am the only contributer. Contributing is allowed, as long as you follow the rules of the [CONTRIBUTING.md](/CONTRIBUTING.md) file.
-
-> * 1. [seanpm2001](https://github.com/seanpm2001/) - x commits (As of Yr, DoW, Month, DoM, at ##:## a/pm)
-
-> * 2. No other contributers.
-
-***
-
-## Issues
-
-### Current issues
-
-* None at the moment
-
-* No other current issues
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
-
-### Past issues
-
-* None at the moment
-
-* No other past issues
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
-
-### Past pull requests
-
-* None at the moment
-
-* No other past pull requests
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
-
-### Active pull requests
-
-* None at the moment
-
-* No other active pull requests
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
-
-***
-
-## Resources
-
-Here are some other resources for this project:
-
-[Project language file A](PROJECT_LANG_1.<fileExtensionForProgrammingLanguage>)
-
-[Join the discussion on GitHub](https://github.com/<developerName>/<repoName>/discussions)
-
-No other resources at the moment.
-
-***
-
-## Contributing
-
-Contributing is allowed for this project, as long as you follow the rules of the `CONTRIBUTING.md` file.
-
-[Click/tap here to view the contributing rules for this project](/CONTRIBUTING.md)
-
-***
-
-## About README
-
-**File type:** `Markdown Document (*.md *.mkd *.markdown)`
-
-**File version:** `0.1.6 (Monday, August 23rd 2021 at 6:37 pm)`
-
-**Line count (including blank lines and compiler line):** `0,407`
-
-***
-
-## README version history
-
-Version 0.1 (Sunday, March 21st 2021 at 7:50 pm)
-
-> Changes:
-
-> * Started the file
-
-> * Added the title section
-
-> * Added the index
-
-> * Added the about section
-
-> * Added the Wiki section
-
-> * Added the version history section
-
-> * Added the issues section.
-
-> * Added the past issues section
-
-> * Added the past pull requests section
-
-> * Added the active pull requests section
-
-> * Added the contributors section
-
-> * Added the contributing section
-
-> * Added the about README section
-
-> * Added the README version history section
-
-> * Added the resources section
-
-> * Added a software status section, with a DRM free sticker and message
-
-> * Added the sponsor info section
-
-**ITERATION 5**
-
-> * Updated the title section
-
-> * Updated the index
-
-> * Added the history section
-
-> * Updated the file info section
-
-> * Updated the file history section
-
-**ITERATION 6**
-
-> * Updated the title section
-
-> * Fixed and update template links
-
-> * Updated the index
-
-> * Added the copying section
-
-> * Added the credits section
-
-> * Added the installation section
-
-> * Updated the resources section
-
-> * Updated the contributors section
-
-> * Added the technical notes section
-
-> * Updated the footer
-
-> * Updated the file info section
-
-> * Updated the file history section
-
-> * No other changes in version 0.1
-
-Version 1 (Coming soon)
-
-> Changes:
-
-> * Coming soon
-
-> * No other changes in version 1
-
-Version 2 (Coming soon)
-
-> Changes:
-
-> * Coming soon
-
-> * No other changes in version 2
-
-***
-
-### You have reached the end of the README file
-
-( [Back to top](#Top) | [Exit to GitHub](https://github.com) | [Exit to Bing](https://www.bing.com/) | [Exit to DuckDuckGo](https://duckduckgo.com/) | [Exit to Ecosia](https://www.ecosia.org) )
-
-### EOF
+**Current article language:** `English (USA)`
 
 ***
